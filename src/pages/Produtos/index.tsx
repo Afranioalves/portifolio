@@ -5,8 +5,6 @@ import Filtros from "./Filtros";
 import Ordenador from "./Ordenador";
 import Itens from './Itens';
 import { ReactComponent as Logo } from "assets/Eletronicos.svg";
-import Menu from "menu/menu";
-
 
 export default function Produtos() {
   const [busca, setBusca] = useState("");
@@ -17,10 +15,7 @@ export default function Produtos() {
       <div className={styles.contmenu}>
         <div>
           <Logo className={styles.logo} />
-        </div>
-        <div>
-          <Menu/>
-        </div>
+        </div>   
       </div>
 
       <header className={styles.header}>

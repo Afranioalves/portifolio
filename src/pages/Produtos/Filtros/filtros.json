@@ -1,0 +1,18 @@
+[
+    {
+      "label": "Notbooks",
+      "id": 1
+    },
+    {
+      "label": "Celulares",
+      "id": 2
+    },
+    {
+      "label": "Tablets",
+      "id": 3
+    },
+    {
+      "label": "Peças",
+      "id": 4
+    }
+  ]

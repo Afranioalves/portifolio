@@ -1,0 +1,119 @@
+[
+    {
+      "title": "Notebook Acer",
+      "description": "Notebook Acer Aspire 5 Intel Core i5-10210U, 8GB RAM, SSD 256GB, 15.6 Full HD, Windows 11 Home, Prata - A515-54-57CS",
+      "photo": "/assets/produtos/acer.jpg",
+      "size": 256,
+      "serving": "I5",
+      "price": 2000.00,
+      "id": 1,
+      "category": {
+        "id": 1,
+        "label": "Notbook"
+      }
+    },
+    {
+      "title": "Notebook HP",
+      "description": "Notebook HP 250 G8 Intel Core I5-1035G1, 8GB RAM, SSD 256GB, Tela 15.6, Windows 10 Pro, Prata ",
+      "photo": "/assets/produtos/hp.jpg",
+      "size": 250,
+      "serving": "I5",
+      "price": 2599.99,
+      "id": 2,
+      "category": {
+        "id": 1,
+        "label": "Notbook"
+      }
+    },
+    {
+      "title": "Notebook Samsung Book",
+      "description": "Notebook Samsung Book Intel Celeron 6305, 4GB RAM, SSD 128GB, Tela 15.6 Full HD, UHD Graphics, Windows 11 Pro, Cinza",
+      "photo": "/assets/produtos/sansung.jpg",
+      "size": 128,
+      "serving": "Celeron 6305",
+      "price": 2299.00,
+      "id": 3,
+      "category": {
+        "id": 1,
+        "label": "Notbook"
+      }
+    },
+    {
+      "title": "iPhone 13 Pro",
+      "description": "iPhone 13 Pro 128GB Dourado, 5G, Tela de 6.1, Câmera Tripla 12MP",
+      "photo": "/assets/produtos/iphone13.jpg",
+      "size": 128,
+      "serving": "5G",
+      "price": 9900.00,
+      "id": 4,
+      "category": {
+        "id": 2,
+        "label": "Celulares"
+      }
+    },
+    {
+      "title": "Smartphone Xiaomi Redmi Note 11",
+      "description": "Smartphone Xiaomi Redmi Note 11, 4GB RAM, 128GB, Octa Core, Câmera Quadrupla 50MP, Tela de 6.43, Cinza - CX332CIN      ",
+      "photo": "/assets/produtos/xiaomi11.jpg",
+      "size": 128,
+      "serving": 2,
+      "price": 1519.05,
+      "id": 5,
+      "category": {
+        "id": 2,
+        "label": "Celulares"
+      }
+    },
+    {
+      "title": "Tablet Samsung Galaxy A7",
+      "description": "Tablet Samsung Galaxy A7 Lite Wifi 32GB 3GB RAM SMT220NZAPZTO",
+      "photo": "/assets/produtos/tabletsansung.jpg",
+      "size": 32,
+      "serving": "Octa-Core",
+      "price": 999.99,
+      "id": 6,
+      "category": {
+        "id": 3,
+        "label": "Tablets"
+      }
+    },
+    {
+      "title": "Bateria - Samsung",
+      "description": "Bateria - Samsung Np-rv411 Rv415 - Preta",
+      "photo": "/assets/produtos/bateriasansung.jpg",
+      "size": "4400mAh",
+      "serving": "14.8v",
+      "price": 140.00,
+      "id": 7,
+      "category": {
+        "id": 4,
+        "label": "Peças"
+      }
+    },
+    {
+      "title": "Combo Teclado e Mouse sem fio",
+      "description": "Combo Teclado e Mouse sem fio Logitech MK235 com Conexão USB, Pilhas Inclusas e Layout ABNT2 - 920-007903",
+      "photo": "/assets/produtos/teclado.jpg",
+      "size": "10m",
+      "serving": "12hr",
+      "price": 199.99,
+      "id": 8,
+      "category": {
+        "id": 4,
+        "label": "Peças"
+      }
+    },
+    {
+      "title": "Tablet Lenovo",
+      "description": "Tablet Lenovo Tab P11 Plus Octa-Core 4GB 64GB Wi-Fi+LTE Android",
+      "photo": "/assets/produtos/tabletlenovo.jpg",
+      "size": 64,
+      "serving": "Octa-Core",
+      "price": 1879.99,
+      "id": 9,
+      "category": {
+        "id": 3,
+        "label": "tablets"
+      }
+    }
+  ]

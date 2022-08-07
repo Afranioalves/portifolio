@@ -1,0 +1,105 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+.menu2 {
+  background-color: #dce2e9;
+}
+.logo {
+  width: 150px;
+    height: 150px;
+}
+.menuitem li{
+  display: inline-block;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 22px;
+}
+.contmenu {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  .li {
+      margin-left: 10px;
+      margin-right: 10px;
+      .a{
+          text-decoration: none;
+          color: #7D8792;
+      }
+  }
+}
+
+.menu {
+  height: 90px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+  padding: 20px $padding-horizontal;
+  @media (max-width: $desktop_xsm) {
+    padding: 20px $padding-horizontal-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 20px $padding-horizontal-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 20px $padding-horizontal-md;
+  }
+}
+
+.header {
+  align-items: center;
+  background-image: url("/assets/gamer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 300px;
+  padding: 0px $padding-horizontal;
+  @media (max-width: $desktop_xsm) {
+    padding: 0px $padding-horizontal-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 0px $padding-horizontal-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 0px $padding-horizontal-md;
+  }
+  &__text {
+    color: white;
+    font-size: 5rem;
+    min-width: 400px;
+    width: 40%;
+  }
+}
+
+.produtos {
+  padding: 50px $padding-horizontal;
+  @media (max-width: $desktop_xsm) {
+    padding: 50px $padding-horizontal-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 50px $padding-horizontal-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 50px $padding-horizontal-md;
+  }
+  &__titulo {
+    color: $dark;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  &__filtros {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}

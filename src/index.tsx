@@ -1,12 +1,6 @@
 import ReactDOM from "react-dom";
 import "normalize.css";
 import "./index.css";
-import Produtos from "./pages/Produtos";
-import { BrowserRouter } from "react-router-dom";
+import App from "./app";
 
-ReactDOM.render(
-  <BrowserRouter>
-    <Produtos />
-  </BrowserRouter>,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById('root'));
